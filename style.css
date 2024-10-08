@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #6fa0d4;
+    color: #333;
+}
+
+
+header {
+    background-color: #43648c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+header img {
+    max-width: 150px;
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    background-color: white;
+    font-size: 18pt;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: #6fa0d4;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+}
+
+main ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+main ul li {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    transition: background-color 0.3s ease;
+}
+
+main ul li:hover {
+    background-color: #6fa0d4;
+    color: white;
+}
+
+.iets {
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.iets h1 {
+    font-size: 48px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+}
+
+.overons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: white;
+    color: #333;
+    flex-direction: row; 
+}
+
+.overons-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;    
+}
+
+.bron {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.tekst {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.afbeelding {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.afbeelding img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.populaire-afleveringen h2 {
+    margin-bottom: 20px;
+    color: #43648c;
+}
+
+.populaire-afleveringen ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.populaire-afleveringen ul li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.populaire-afleveringen a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #43648c;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.populaire-afleveringen a.btn:hover {
+    background-color: #6fa0d4;
+}
+
+footer {
+    background-color: #43648c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
